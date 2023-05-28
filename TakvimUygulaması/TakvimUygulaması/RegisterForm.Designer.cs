@@ -130,6 +130,7 @@
             this.buttonkayitol.TabIndex = 39;
             this.buttonkayitol.Text = "KAYIT OL";
             this.buttonkayitol.UseVisualStyleBackColor = false;
+            this.buttonkayitol.Click += new System.EventHandler(this.buttonkayitol_Click);
             // 
             // label6
             // 
@@ -317,6 +318,7 @@
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegisterForm";
+            this.Load += new System.EventHandler(this.RegisterForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
