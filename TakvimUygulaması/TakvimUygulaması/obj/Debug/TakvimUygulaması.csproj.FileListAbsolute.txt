@@ -1,0 +1,12 @@
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.csproj.AssemblyReference.cache
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.csproj.SuggestedBindingRedirects.cache
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.LoginForm.resources
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.Properties.Resources.resources
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.RegisterForm.resources
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.csproj.GenerateResource.cache
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.csproj.CoreCompileInputs.cache
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\bin\Debug\TakvimUygulaması.exe.config
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\bin\Debug\TakvimUygulaması.exe
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\bin\Debug\TakvimUygulaması.pdb
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.exe
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.pdb
