@@ -49,6 +49,7 @@
             this.buttongirisyap.TabIndex = 32;
             this.buttongirisyap.Text = "Giriş Yap";
             this.buttongirisyap.UseVisualStyleBackColor = false;
+            this.buttongirisyap.Click += new System.EventHandler(this.buttongirisyap_Click);
             // 
             // linkLabelkayit
             // 
@@ -133,6 +134,7 @@
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
