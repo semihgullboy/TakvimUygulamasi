@@ -54,6 +54,10 @@
             this.label1.Size = new System.Drawing.Size(0, 18);
             this.label1.TabIndex = 2;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // UserControlDays
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
