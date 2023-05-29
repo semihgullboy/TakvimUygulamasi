@@ -20,7 +20,6 @@ namespace TakvimUygulaması
         public TakvimForm()
         {
             InitializeComponent();
-            timer1.Start();
         }
 
         private void TakvimForm_Load(object sender, EventArgs e)
@@ -121,14 +120,7 @@ namespace TakvimUygulaması
 
         private void buttoncıkısyap_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            LoginForm frm3 = new LoginForm();
-            frm3.ShowDialog();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            label8.Text = DateTime.Now.ToLongTimeString();
+            Application.Exit();
         }
     }
 }
