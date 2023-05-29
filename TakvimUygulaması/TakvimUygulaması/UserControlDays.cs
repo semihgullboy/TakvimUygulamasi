@@ -13,7 +13,7 @@ namespace TakvimUygulaması
 {
     public partial class UserControlDays : UserControl
     {
-
+        String connString = "server=localhost; user id =root; database =takvimuygulamasi ; sslmode= none";
         public static string static_day;
 
         public UserControlDays()
@@ -39,9 +39,27 @@ namespace TakvimUygulaması
             form.Show();
         }
 
+        public void displayEvent()
+        {
+            MySqlConnection connection = new MySqlConnection(connString);
+            connection.Open();
+            string sql = "SELECT * FROM planliste where date = ?";
+            MySqlCommand cmd = connection.CreateCommand();
+            cmd.CommandText = sql;
+            cmd.Parameters.AddWithValue("date", TakvimForm.static_year + "-" + TakvimForm.static_month + "-" + labeldays.Text);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                label1.Text = reader["event"].ToString();
+            }
+            reader.Dispose();
+            cmd.Dispose();
+            connection.Close();
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
-    
+            displayEvent();
         }
     }
 }

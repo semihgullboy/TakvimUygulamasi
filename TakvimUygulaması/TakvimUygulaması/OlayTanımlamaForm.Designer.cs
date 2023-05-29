@@ -48,23 +48,27 @@
             // 
             this.buttonsil.BackColor = System.Drawing.SystemColors.Desktop;
             this.buttonsil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonsil.ForeColor = System.Drawing.SystemColors.Control;
             this.buttonsil.Location = new System.Drawing.Point(336, 425);
             this.buttonsil.Name = "buttonsil";
             this.buttonsil.Size = new System.Drawing.Size(106, 33);
             this.buttonsil.TabIndex = 38;
             this.buttonsil.Text = "Sil";
             this.buttonsil.UseVisualStyleBackColor = false;
+            this.buttonsil.Click += new System.EventHandler(this.buttonsil_Click);
             // 
             // buttongüncelle
             // 
             this.buttongüncelle.BackColor = System.Drawing.SystemColors.Desktop;
             this.buttongüncelle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttongüncelle.ForeColor = System.Drawing.SystemColors.Control;
             this.buttongüncelle.Location = new System.Drawing.Point(207, 425);
             this.buttongüncelle.Name = "buttongüncelle";
             this.buttongüncelle.Size = new System.Drawing.Size(106, 33);
             this.buttongüncelle.TabIndex = 37;
             this.buttongüncelle.Text = "Güncelle";
             this.buttongüncelle.UseVisualStyleBackColor = false;
+            this.buttongüncelle.Click += new System.EventHandler(this.buttongüncelle_Click);
             // 
             // label5
             // 
@@ -122,13 +126,14 @@
             // 
             this.buttonsave.BackColor = System.Drawing.SystemColors.Desktop;
             this.buttonsave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonsave.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.buttonsave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonsave.Location = new System.Drawing.Point(80, 425);
             this.buttonsave.Name = "buttonsave";
             this.buttonsave.Size = new System.Drawing.Size(106, 33);
             this.buttonsave.TabIndex = 30;
             this.buttonsave.Text = "Kaydet";
             this.buttonsave.UseVisualStyleBackColor = false;
+            this.buttonsave.Click += new System.EventHandler(this.buttonsave_Click);
             // 
             // label2
             // 
@@ -198,6 +203,7 @@
             this.Name = "OlayTanımlamaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OlayTanımlamaForm";
+            this.Load += new System.EventHandler(this.OlayTanımlamaForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

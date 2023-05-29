@@ -38,3 +38,4 @@ C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulam
 C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.csproj.CopyComplete
 C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.TakvimForm.resources
 C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.UserControlDays.resources
+C:\Users\semih\OneDrive\Masaüstü\çalışmalar\TakvimUygulaması\TakvimUygulaması\obj\Debug\TakvimUygulaması.OlayTanımlamaForm.resources
