@@ -51,7 +51,9 @@ namespace TakvimUygulaması
                 {
                     MessageBox.Show("Giriş Başarılı!");
                     this.Hide();
-                    
+                    this.Hide();
+                    TakvimForm frm2 = new TakvimForm();
+                    frm2.ShowDialog();
 
                 }
                 else
